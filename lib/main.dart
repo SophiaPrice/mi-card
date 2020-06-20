@@ -19,6 +19,14 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/graduation.jpg'),
                 backgroundColor: Colors.white,
               ),
+              Text(
+                'Sophia Price',
+                style: TextStyle(
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
             ],
           ),
         ),
