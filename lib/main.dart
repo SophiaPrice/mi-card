@@ -82,6 +82,24 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
+              Card(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.laptop,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    'https://github.com/SophiaPrice',
+                    style: TextStyle(
+                      fontSize: 20.0,
+                      color: Colors.teal[900],
+                      fontFamily: 'Source Sans Pro',
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
