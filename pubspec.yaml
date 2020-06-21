@@ -19,3 +19,10 @@ flutter:
   uses-material-design: true
   assets:
     - images/
+  fonts:
+  - family: Pacifico
+    fonts:
+    - asset: fonts/pacifico/Pacifico-Regular.ttf
+  - family: Source Sans Pro
+    fonts:
+    - asset: fonts/sourcesanspro/SourceSansPro-Regular.ttf
